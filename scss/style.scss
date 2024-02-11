@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 15px auto;
+    button {
+        padding: 5px 15px;
+        border-radius: 12px;
+        border: none;
+        color: #fff;
+        background-color: blue;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    button:hover {
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+}
